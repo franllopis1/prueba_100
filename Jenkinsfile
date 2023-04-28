@@ -30,7 +30,6 @@ pipeline {
           
           bucle.put(nombre, version)
           writeYaml file: 'release.yaml', data: bucle, overwrite: true
-
         }
       }
     }
