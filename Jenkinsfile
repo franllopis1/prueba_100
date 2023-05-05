@@ -25,7 +25,6 @@ pipeline {
           //Si no se encuentra en la lista añade una nueva linea con los valores
           if (auch == 0) {
             println "La version de " + nombre + " es " + version
-            
           }
           //Sustituye los datos del value cuando coincida el nombre
           bucle.put(nombre, version)
